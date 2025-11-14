@@ -1,4 +1,4 @@
-package patrones.comportamentales;
+package patrones.comportamentales.memento;
 
 import patrones.comportamentales.estados.Orden;
 

@@ -4,14 +4,6 @@ import models.*;
 
 public class ProductoFactory {
 
-    /**
-     * Crea un producto según su tipo
-     * @param tipo Tipo de producto (BEBIDA, COMIDA, POSTRE, ENTRADA)
-     * @param nombre Nombre del producto
-     * @param precio Precio del producto
-     * @return Producto creado
-     * @throws IllegalArgumentException si el tipo no es válido
-     */
     public static Producto crearProducto(String tipo, String nombre, double precio) {
         switch (tipo.toUpperCase()) {
             case "BEBIDA":
